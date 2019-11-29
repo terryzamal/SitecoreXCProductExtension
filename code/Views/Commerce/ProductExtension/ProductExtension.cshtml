@@ -1,0 +1,20 @@
+﻿@using Sitecore.XA.Foundation.MarkupDecorator.Extensions;
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions;
+@model SitecoreXC92.ProductExtension.Models.ProductExtensionRenderingModel
+
+@{
+    var messageSummaryError = "No Eroor";
+}
+
+@if (!string.IsNullOrEmpty(Model.ErrorMessage))
+{
+
+    @Model.ErrorMessage
+}
+else
+{
+    if (Model != null)
+    {
+        @Model.ProductRegion
+    }
+}

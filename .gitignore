@@ -1,0 +1,22 @@
+﻿# Settings directories for common development tools
+.vs/
+Lib/
+.vscode/
+.vagrant/
+*.log
+
+# Build output directories
+[Bb]in/
+[Oo]bj/
+
+# User-specific MSBuild config files
+*.user
+
+# NuGet package directories
+packages/
+
+## NodeJS / npm related directories
+node_modules/
+
+# Miscellaneous
+*.zip
